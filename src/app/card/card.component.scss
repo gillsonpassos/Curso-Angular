@@ -20,5 +20,9 @@
         font-size: 40px;
     }
 
- 
 }
+
+::ng-deep app-card-button-cancel .card-cancel-button {
+    background-color: yellow !important;
+    }
+ 
