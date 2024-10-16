@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # AtributosPropreidades
+=======
+# ProjetoTeste
+>>>>>>> 101e0d6ac5e1169d130980c444b3611d1b2254ec
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
 
