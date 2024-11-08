@@ -1,0 +1,8 @@
+/* app.component.scss */
+:host {
+  display: block; /* Faz o host preencher a área */
+  height: 100vh; /* Para ocupar toda a altura da viewport */
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove preenchimento padrão */
+  background-color: #808080; /* Altere a cor conforme necessário */
+}
