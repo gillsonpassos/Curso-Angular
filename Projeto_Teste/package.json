@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "atributos-propreidades",
-=======
   "name": "projeto-teste",
->>>>>>> 101e0d6ac5e1169d130980c444b3611d1b2254ec
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -15,18 +11,12 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^18.2.0",
-<<<<<<< HEAD
-=======
     "@angular/cdk": "^18.2.7",
->>>>>>> 101e0d6ac5e1169d130980c444b3611d1b2254ec
     "@angular/common": "^18.2.0",
     "@angular/compiler": "^18.2.0",
     "@angular/core": "^18.2.0",
     "@angular/forms": "^18.2.0",
-<<<<<<< HEAD
-=======
     "@angular/material": "^18.2.7",
->>>>>>> 101e0d6ac5e1169d130980c444b3611d1b2254ec
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
@@ -47,8 +37,4 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.5.2"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 101e0d6ac5e1169d130980c444b3611d1b2254ec
