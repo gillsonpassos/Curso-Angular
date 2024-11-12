@@ -1,0 +1,10 @@
+<h1 [ngStyle]="stylesObj">Hello Word!!!!!</h1>
+
+<h1 [style.font-size.px]="fontSize" [style.color]="textColor">
+  Hello Word 2 !!!
+</h1>
+
+<h1 [style]="stylesString">Hello Word 3 !!!</h1>
+
+<button (click)="increaseFontSize()">+A</button>
+<button (click)="toogleFontColor()">{{ buttonText }}</button>
