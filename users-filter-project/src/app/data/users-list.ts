@@ -1,0 +1,73 @@
+import { IUser } from '../interfaces/user/user.interface';
+
+export const UserList: IUser[] = [
+  {
+    nome: 'João Silva',
+    email: 'joao.silva@example.com',
+    senha: 'senha-segura-123',
+    idade: 30,
+    endereco: {
+      rua: 'Rua das Flores',
+      numero: 42,
+      cidade: 'São Paulo',
+      estado: 'SP',
+      pais: 'Brasil',
+    },
+    telefone: '11912345678',
+    ativo: true,
+    funcao: 'Desenvolvedor',
+    dataCadastro: '2024-11-01T09:00:00.000Z',
+    status: {
+      online: true,
+      verificado: true,
+      assinaturaAtiva: true,
+      ultimoAcesso: '2024-11-02T09:00:00.000Z',
+    },
+  },
+  {
+    nome: 'Maria Fernandes',
+    email: 'maria.fernandes@example.com',
+    senha: 'maria123',
+    idade: 25,
+    endereco: {
+      rua: 'Avenida do Sol',
+      numero: 100,
+      cidade: 'Rio de Janeiro',
+      estado: 'RJ',
+      pais: 'Brasil',
+    },
+    telefone: '51915161718',
+    ativo: false,
+    funcao: 'Analista',
+    dataCadastro: '2024-08-15T09:00:00.000Z',
+    status: {
+      online: true,
+      verificado: false,
+      assinaturaAtiva: true,
+      ultimoAcesso: '2024-08-18T09:00:00.000Z',
+    },
+  },
+  {
+    nome: 'Pedro Mendes',
+    email: 'pedro.mendes@example.com',
+    senha: 'Pedro012',
+    idade: 35,
+    endereco: {
+      rua: 'Boulevard Central',
+      numero: 60,
+      cidade: 'Recife',
+      estado: 'PE',
+      pais: 'Brasil',
+    },
+    telefone: '81919202122',
+    ativo: true,
+    funcao: 'Diretor',
+    dataCadastro: '2024-08-20T09:00:00.000Z',
+    status: {
+      online: false,
+      verificado: true,
+      assinaturaAtiva: false,
+      ultimoAcesso: '2024-08-25T09:00:00.000Z',
+    },
+  },
+];
