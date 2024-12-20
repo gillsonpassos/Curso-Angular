@@ -7,9 +7,10 @@ import { MatListModule } from '@angular/material/list';
 import { MatDividerModule } from '@angular/material/divider';
 import { FilterComponent } from './filter/filter.component';
 import { CommonModule } from '@angular/common';
+import { UsersListComponent } from './users-list/users-list.component';
 
 @NgModule({
-  declarations: [UserDetailsComponent, FilterComponent],
+  declarations: [UserDetailsComponent, FilterComponent, UsersListComponent],
   imports: [
     AngularMaterialModule,
     CommonModule,
@@ -17,6 +18,6 @@ import { CommonModule } from '@angular/common';
     MatDividerModule,
     FormsModule,
   ],
-  exports: [UserDetailsComponent, FilterComponent],
+  exports: [UserDetailsComponent, FilterComponent, UsersListComponent],
 })
 export class ComponentsModule {}
